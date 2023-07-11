@@ -1,6 +1,6 @@
 # File Splitter and Combiner
 
-This repository contains two bash scripts: a file splitter and a file combiner. The splitter script divides a large file into smaller chunks, and the combiner script combines these chunks back into the original file.
+This repository contains the necessary scripts to split and combine chunks to recover or divide a original file. 
 
 ## Combiner
 
@@ -22,7 +22,9 @@ The splitter script takes as input a file to be split and a chunk size, and spli
 To split a large file named "largefile.txt" into chunks of 100MB,
 you would use the following command:
 
+```
 ./splitter.sh largefile.txt 100M
+```
 
 # License
 
